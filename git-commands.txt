@@ -1,0 +1,52 @@
+Git – Git is a  Distributed Version Control System.
+In github first sign-up then after sign-up or login you can create Repository with initializing READ ME option.
+Now you have created Repository then Click on Create file and write what type of file you want create whether txt,java,php or c because Git understands all files.
+Then do something in that file and commit it and again do some changes and commit it and continue doing so.Now if you want check what changes have you made till now then go to ‘Source’ means click on ‘Source’ then click on ‘Commits’ then all Files with appear with changes you made then go inside that file or choose file and check it then click on ‘view option’ at right side and after view you can do editing by clicking on Edit option and after editing commit it.
+While editing a file there may be a chance that it may be very important changes and you want to save it separately then for that after doing editing or changes you create a new branch which option will be given at bottom then name new branch and click on ’Propose file changes’ button then it will be saved in new branch.
+Now if you want to merge two branch means your Maser Branch and created branch  then for that Click on Repository which you have created once  then we will get option of ‘Compare & Pull Request’ if we click on that then it will say can’t merge automatically then to resolve this issue at bottom one option is given ‘Create Pull request’ just click on it then it shows where the issue is and one option ‘Resolve conflicts’ is given just click it. Then if you find that ‘Propose file changes’ that important changes  are made in  between committing final changes so just do changes accordingly means remove’ file name’ with the changes and click on commit merge option.
+Then it will say this branch has no conflicts and now you need to click on ‘Merge pull request’ button and then click on Confirm Merge.  
+Now you can go to ‘code’ and go ‘Master’ and click on your file which you have created.
+
+Git Commands-
+git config  - - global user.name “username”
+git config  - - user.email  email id
+git init
+git remote add origin url
+git status
+git add .
+git commit –m “add test.txt”
+git push origin master
+git pull origin master
+git push origin master
+git clone url
+
+
+git remote –v
+cp ../test.txt test.txt
+git add .
+git commit –m “add test.txt”
+git push origin master
+
+  
+Process of Github
+First install Git Bash on system then configure your Git Bash with GitHub account with commands
+git config  - - global user.name “username”
+git config  - - user.email  email id
+
+then copy the Folder in your created Folder which you want to send to Git Hub 
+git init
+
+now  url of Repository in which you want to send document or Folder
+then run command
+git remote add origin url
+git status
+ 
+after checking git status, add that folder or document to repository by running command
+git add .
+
+now run
+git commit -m "initial" -->to add comment when you updated this file or folder
+
+now push it to origin master means to GitHub by running this command
+git push origin master
+  
